@@ -2,13 +2,15 @@
 
 #include <string>
 
-namespace MyLibrary {
-    class Entity {
-    public:
-        std::string Name;
-        int Number;
-    };
+namespace MyLibrary
+{
+class Entity
+{
+ public:
+  std::string Name;
+  int Number;
+};
 
-    void DoubleTheNumberValue( Entity& entity );
+void DoubleTheNumberValue( Entity& entity );
 
-}
+}  // namespace MyLibrary
