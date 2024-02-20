@@ -1,1 +1,1 @@
-add_library(MyLibrary MyLibrary.cpp)
+add_library(MyLibrary src/MyLibrary.cpp)
