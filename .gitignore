@@ -1,0 +1,6 @@
+# ignore the build directory created by cmake
+/build
+# ignore the cashe directory created by cmake
+/.cache
+# ignore the bin directory
+/bin
